@@ -1,0 +1,21 @@
+{
+  "name": "minimal-webpage-design",
+  "version": "1.0.0",
+  "description": "a minimal webpage design created for the preliminary round of seygnux solution",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "materialize-css",
+    "minimal"
+  ],
+  "author": "yusha-g",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

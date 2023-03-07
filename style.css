@@ -1,0 +1,185 @@
+body{
+    font-family: Helvetica-Reg;
+}
+.parallax-container {
+    height: 400px;
+    filter: grayscale(100%) contrast(80%);
+}
+
+.overlay-txt{
+    height: 100%;
+    position: absolute;
+    color: aliceblue;    
+    left: 15vw;
+    padding-top: 5em;
+}
+.overlay-heading{
+    font-family: Helvetica-ExtBold;
+    font-size: 4em;
+    width: 5em;
+    height: 3em;
+    word-wrap: inherit;
+    line-height: 1em;
+}
+.overlay-body-txt{
+    word-wrap: inherit;
+    padding-top: 1em;
+    font-size: 1em;
+    width: 30em;
+    font-family: Helvetica-Reg;
+}
+.text-container{
+    padding-left: 15vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+.txt-heading{
+    font-family: Helvetica-ExtBold;
+    font-size: 4em;
+}
+.txt-body{
+    font-size: 1.2em;
+    font-family: Helvetica-Reg;
+}
+.logos{
+    padding-top: 2em;
+}
+.display-cards{
+    height: 15em;
+    width: 30em;
+    object-fit: cover;
+}
+table{
+    margin-top: 3em;
+    padding-right: 40vw;;
+
+}
+table tr{
+    border:none;
+    
+}
+table td{
+    width: 30%;
+    
+}
+hr{
+    margin-top: 3em;
+    width: 1.5em;
+    margin-left: 0;
+}
+
+hr.white{
+    color: white;
+}
+
+@font-face {
+    font-family: Helvetica-ExtBold;
+    src: url('img/HelveticaNowDisplay-ExtraBold.woff');
+}
+
+@font-face {
+    font-family: Helvetica-Reg;
+    src: url('img/HelveticaNowDisplay-Regular.woff');
+}
+
+@font-face {
+    font-family: Helvetica-Med;
+    src: url('img/HelveticaNowDisplay-Bold.woff');
+    font-weight: 900;
+}
+
+#les{
+    font-family: les;
+    word-spacing: normal;
+    font-size: 1.2em;
+}
+#avec{
+    font-family: Arial;
+}
+#whitespace{
+    font-family: whiite-space;
+}
+#minimalist{
+    font-family: minimalist;
+}
+#barcelona{
+    font-family: ambroise;
+}
+#smooth{
+    font-family: minimalist;
+    font-weight: lighter;
+}
+.logos{
+    text-align: center;
+    word-spacing: 3em;
+    font-size: 1.3em;
+}
+.brand-font{
+    font-family: saxo;
+    font-size: 3em;
+    padding-left: 1em;
+}
+@font-face {
+    font-family: les;
+    src: url('img/formal-script-bold.otf');
+}
+@font-face {
+    font-family: minimalist;
+    src: url('img/Futura Light.otf');
+}
+@font-face {
+    font-family: ambroise;
+    src: url('img/Ambroise Regular.otf');
+}
+@font-face {
+    font-family: whiite-space;
+    src: url('img/ThrohandInk Expert Roman.otf');
+}
+@font-face {
+    font-family: saxo;
+    src: url('img/saxony-serial-bold.ttf');
+}
+.display-card-head{
+    font-family: Helvetica-Med;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+.display-card-text{
+    letter-spacing: .1em;
+    padding-bottom: 5em;
+    font-size: .9em;
+}
+.pre-footer{
+    font-size: 1.7vw;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.page-footer{
+    text-align: center;
+}
+.btn-large{
+    font-size: 12px;
+    font-family: Helvetica-Reg;
+    padding: -1px 15px -1px 15px;
+    border-radius: 5px;
+}
+
+.d-c-s td{
+    padding-right: 4em;
+}
+.d-c-s th{
+    font-family: Helvetica-Med;
+}
+
+.end-footer{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    line-height: 3em;
+    font-size: 1vw;
+}
+.footer-a{
+    color: white;
+    font-size: .8em;
+}
